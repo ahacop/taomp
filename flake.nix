@@ -31,6 +31,8 @@
               # gems
               ruby
               bundix
+              ncurses
+              pkg-config
             ];
           };
       });

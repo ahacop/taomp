@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    curses (1.5.3)
     language_server-protocol (3.17.0.5)
     logger (1.7.0)
     prism (1.4.0)
@@ -16,7 +17,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  curses
   ruby-lsp
+
+RUBY VERSION
+   ruby 3.4.5p51
 
 BUNDLED WITH
    2.6.9

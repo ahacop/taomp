@@ -1,4 +1,14 @@
 {
+  curses = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0z5zfxp10p7p2jwxbygkii8bffdl117qirh9qrl8xrvz5r21kll6";
+      type = "gem";
+    };
+    version = "1.5.3";
+  };
   language_server-protocol = {
     groups = ["default"];
     platforms = [];
