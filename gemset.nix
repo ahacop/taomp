@@ -39,6 +39,16 @@
     };
     version = "1.4.0";
   };
+  rainbow = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0smwg4mii0fm38pyb5fddbmrdpifwv22zv3d3px2xx497am93503";
+      type = "gem";
+    };
+    version = "3.1.1";
+  };
   rbs = {
     dependencies = ["logger"];
     groups = ["default"];

@@ -5,4 +5,5 @@ source "https://rubygems.org"
 ruby file: ".ruby-version"
 
 gem "curses"
+gem "rainbow"
 gem "ruby-lsp"
